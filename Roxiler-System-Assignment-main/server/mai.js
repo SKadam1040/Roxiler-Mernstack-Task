@@ -1,0 +1,1 @@
+mongoose.connect('mongodb+srv://dbuser:dyPN1KJ23JoG9KvO@cluster0.u3s9aur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>console.log('db Connected')).catch((e)=>console.log(e))// connecting to mongodb atlas
